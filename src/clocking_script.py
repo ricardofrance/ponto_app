@@ -13,7 +13,7 @@ USERNAME = "ricardo.france@funcamp.unicamp.br"
 PASSWORD = "Rija#1948"
 
 # URL da página de marcação de ponto
-CLOCKING_URL = "https://platform.senior.com.br/hcm-pontomobile/hcm/pontomobile/#/clocking-event"
+CLOCKING_URL = "https://platform.senior.com.br/senior-x/#/Gest%C3%A3o%20de%20Pessoas%20%7C%20HCM/1/res:%2F%2Fsenior.com.br%2Fhcm%2Fpontomobile%2FclockingEvent?category=frame&link=https:%2F%2Fplatform.senior.com.br%2Fhcm-pontomobile%2Fhcm%2Fpontomobile%2F%23%2Fclocking-event&withCredentials=true&r=4"
 
 def login_and_clock_in():
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Tentando logar e marcar o ponto com Selenium...")
